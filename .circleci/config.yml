@@ -31,16 +31,7 @@ jobs:
           name: install backend dependencies
           command: |
             npm run backend:install
-      # build both apps
-      - run:
-          name: build frontend
-          command: |
-            npm run frontend:build
-      - run:
-          name: build backend
-          command: |
-            npm run backend:build
-      # deploy both apps
+      # build & deploy both apps
       - run:
           name: deploy frontend
           command: |
