@@ -1,2 +1,4 @@
 npm run build
-aws s3 cp --recursive --acl public-read ./www s3://udacityadvancedtrack/
+eb init udagram-api --platform node.js --region us-east-1
+eb use udagram-api-dev
+eb deploy udagram-api-dev
