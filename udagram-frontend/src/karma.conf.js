@@ -3,7 +3,7 @@
 
 module.exports = function (config) {
 	const process = require('process');
-	process.env.CHROMIUM_BIN = require('puppeteer').executablePath();
+	process.env.CHROME_BIN = require('puppeteer').executablePath();
 	config.set({
 		basePath: '',
 		frameworks: ['jasmine', '@angular-devkit/build-angular'],
@@ -28,7 +28,7 @@ module.exports = function (config) {
 		logLevel: config.LOG_INFO,
 		autoWatch: false,
 		browsers: ['ChromeHeadless'],
-		// singleRun: true,
+		singleRun: true,
 		concurrency: Infinity
 	});
 };
