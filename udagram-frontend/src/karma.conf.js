@@ -28,7 +28,7 @@ module.exports = function (config) {
 		logLevel: config.LOG_INFO,
 		autoWatch: false,
 		browsers: ['ChromeHeadless'],
-		singleRun: true,
+		// singleRun: true,
 		concurrency: Infinity
 	});
 };
