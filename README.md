@@ -1,5 +1,5 @@
 # Udagram
-Pipeline Status (master Branch): [![CircleCI](https://circleci.com/gh/AhmedMohammed3/udagram/tree/master.svg?style=svg)](https://circleci.com/gh/AhmedMohammed3/udagram/?branch=master)
+Pipeline Status (master Branch): [![CircleCI](https://circleci.com/gh/AhmedMohammed3/udagram/tree/master.svg?style=shield)](https://circleci.com/gh/AhmedMohammed3/udagram/?branch=master)
 
 This application is a post based social media platform. It is like Instagram but for posts. It is also like Snapchat but for posts. And you can embed images and links in posts. All you need to do is to sign up then you can start sharing your thoughts in the world of Udagram via our posts. It consists of frontend and backend. Frontend is built using Angular framework and backend is build using Node.js and Express.js in typescript. It is also linked with circleci to auto deploy the application on AWS on any push. S3 is used for hosting the frontend, another S3 is used to store media files, elastic beanstalk for hosting the backend and RDS postgres DB for storing the posts and users.
 
