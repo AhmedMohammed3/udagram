@@ -2,11 +2,11 @@
 
 ### Last success circleci build
 
-[![](https://github.com/AhmedMohammed3/udagram/blob/master/documentation/circleci-pipeline.PNG)](https://github.com/AhmedMohammed3/udagram/blob/master/documentation/circleci-pipeline.PNG)<br>
+[![](https://github.com/AhmedMohammed3/udagram/blob/master/resources/circleci-pipeline.PNG)](https://github.com/AhmedMohammed3/udagram/blob/master/resources/circleci-pipeline.PNG)<br>
 
 ### Environment Variables of CircleCi
 
-[![](https://github.com/AhmedMohammed3/udagram/blob/master/documentation/circleci-envars.PNG)](https://github.com/AhmedMohammed3/udagram/blob/master/documentation/circleci-envars.PNG)<br>
+[![](https://github.com/AhmedMohammed3/udagram/blob/master/resources/circleci-envars.PNG)](https://github.com/AhmedMohammed3/udagram/blob/master/resources/circleci-envars.PNG)<br>
 
 ### Pipeline Overview
 
@@ -23,4 +23,4 @@ After the developer pushes the code to the repository, the pipeline starts.
 9. Run frontend tests.
 10. Deploy frontend to S3.
 11. Deploy backend to Elastic Beanstalk.
-    [![](https://github.com/AhmedMohammed3/udagram/blob/master/documentation/aws-pipeline.png)](https://github.com/AhmedMohammed3/udagram/blob/master/documentation/aws-pipeline.png)<br>
+    [![](https://github.com/AhmedMohammed3/udagram/blob/master/resources/aws-pipeline.png)](https://github.com/AhmedMohammed3/udagram/blob/master/resources/aws-pipeline.png)<br>
