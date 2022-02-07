@@ -20,9 +20,13 @@ This application is a post based social media platform. It is like Instagram but
 
 [![](https://github.com/AhmedMohammed3/udagram/blob/master/documentation/rds-running.PNG)](https://github.com/AhmedMohammed3/udagram/blob/master/documentation/rds-running.PNG)<br>
 
-### Last succes circleci build
+### Last success circleci build
 
 [![](https://github.com/AhmedMohammed3/udagram/blob/master/documentation/circleci-pipeline.PNG)](https://github.com/AhmedMohammed3/udagram/blob/master/documentation/circleci-pipeline.PNG)<br>
+
+### Environment Variables of CircleCi
+
+[![](https://github.com/AhmedMohammed3/udagram/blob/master/documentation/circleci-envars.PNG)](https://github.com/AhmedMohammed3/udagram/blob/master/documentation/circleci-envars.PNG)<br>
 
 ### Infrastructure
 1. S3 Bucket that hosts the frontend which is built using Angular framework.
