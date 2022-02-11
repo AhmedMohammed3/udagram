@@ -1,7 +1,7 @@
 # Udagram
 Pipeline Status (master Branch): [![CircleCI](https://circleci.com/gh/AhmedMohammed3/udagram/tree/master.svg?style=shield)](https://circleci.com/gh/AhmedMohammed3/udagram/?branch=master)
 
-This application is a post based social media platform. It is like Instagram but for posts. It is also like Snapchat but for posts. And you can embed images and links in posts. All you need to do is to sign up then you can start sharing your thoughts in the world of Udagram via our posts. It consists of frontend and backend. Frontend is built using Angular framework and backend is build using Node.js and Express.js in typescript. It is also linked with circleci to auto deploy the application on AWS on any push. S3 is used for hosting the frontend, another S3 is used to store media files, elastic beanstalk for hosting the backend and RDS postgres DB for storing the posts and users.
+This application is a post based social media platform. It is like Instagram but for posts. It is also like Snapchat but for posts. And you can embed images and links in posts. All you need to do is to sign up then you can start sharing your thoughts in the world of Udagram via our posts. It consists of frontend and backend. Frontend is built using Angular framework and backend is build using Node.js and Express.js in typescript. It is also linked with circleci to auto deploy the application on AWS on any push to the master branch. S3 is used for hosting the frontend, another S3 is used to store media files, elastic beanstalk for hosting the backend and RDS postgres DB for storing the posts and users.
 
 ## Live Preview
 [![](https://github.com/AhmedMohammed3/udagram/blob/master/resources/udagram-front.PNG)](http://ahassan-udagram-frontend.s3-website-us-east-1.amazonaws.com/)<br>
@@ -35,7 +35,7 @@ This application is a post based social media platform. It is like Instagram but
 4. RDS that hosts the postgres DB which is built using postgres.
 [![](https://github.com/AhmedMohammed3/udagram/blob/master/resources/infrastructure.png)](https://github.com/AhmedMohammed3/udagram/blob/master/resources/infrastructure.png)<br>
 ### Pipeline Overview
-After the developer pushes the code to the repository, the pipeline starts.
+After the developer pushes the code to the master branch, the pipeline starts.
 1. CircleCi is triggered to start the build.
 2. Checkout the code from the repository.
 3. Install AWS & Elastic Beanstalk CLI.

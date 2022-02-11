@@ -10,7 +10,7 @@
 
 ### Pipeline Overview
 
-After the developer pushes the code to the repository, the pipeline starts.
+After the developer pushes the code to the master branch, the pipeline starts.
 
 1. CircleCi is triggered to start the build.
 2. Checkout the code from the repository.
