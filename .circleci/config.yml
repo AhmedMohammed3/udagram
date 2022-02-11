@@ -13,6 +13,10 @@ orbs:
 # See: https://circleci.com/docs/2.0/configuration-reference/#jobs
 jobs:
   build:
+    filters:
+      branches:
+        only:
+          - master
     docker:
       # the base image can run most needed actions with orbs
       - image: 'cimg/base:stable'
